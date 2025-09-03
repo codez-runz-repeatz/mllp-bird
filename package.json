@@ -1,0 +1,12 @@
+{
+  "name": "mllp-bird",
+  "version": "1.0.0",
+  "main": "mllp-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mllp-server.js"
+  },
+  "dependencies": {
+    "mllp-node": "^1.0.0"
+  }
+}

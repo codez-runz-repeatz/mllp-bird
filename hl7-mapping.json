@@ -1,0 +1,8 @@
+{
+  "PID.5.1": "patientLastName",
+  "PID.5.2": "patientFirstName",
+  "PID.7": "dateOfBirth",
+  "PID.8": "sex",
+  "SCH.1": "appointmentId",
+  "SCH.11.4": "appointmentDateTime"
+}
