@@ -1,0 +1,29 @@
+{
+  "MSH.9": "messageType",
+  "MSH.3": "sendingApplication",
+  "SCH.1": "appointmentId",
+
+  "patient": {
+    "PID.3.1.1": "id",
+    "PID.3.2.1": "nhsNumber",
+    "PID.5.1": "name.family",
+    "PID.5.2": "name.given",
+    "PID.7": "dob",
+    "PID.8": "sex",
+    "PID.11": "address",
+    "PID.13": "phone"
+  },
+
+  "practitioner": {
+    "PV1.7.1": "id",
+    "PV1.7.2": "name.family",
+    "PV1.7.3": "name.given",
+    "PV1.7.4": "name.title",
+    "PV1.10": "role"
+  },
+
+  "PV1.3": "location",
+  "SCH.7": "start",
+  "SCH.8": "duration",
+  "__RAW_HL7__": "mllp"
+}
