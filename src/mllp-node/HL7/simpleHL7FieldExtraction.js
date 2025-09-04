@@ -5,7 +5,7 @@
  * @param {object} config - The config object with a 'fields' array.
  * @returns {object} - Extracted fields as key-value pairs.
  */
-export function extractFields(hl7Message, config) {
+function extractFields(hl7Message, config) {
   const result = {};
   if (!hl7Message || !config || !Array.isArray(config.fields)) return result;
   // Split message into segments
@@ -22,3 +22,19 @@ export function extractFields(hl7Message, config) {
   }
   return result;
 }
+
+function extractSimpleField(segments, fieldPath) {
+  // Example: fieldPath = 'PID.5.1' (segment.field.component)
+  const [segmentName, fieldNum, componentNum] = fieldPath.split('.');
+  const segment = segments.find(seg => seg[0] === segmentName);
+  if (!segment) return undefined;
+  const field = segment[parseInt(fieldNum, 10)];
+  if (!field) return undefined;
+  if (componentNum) {
+    const components = field.split('^');
+    return components[parseInt(componentNum, 10) - 1];
+  }
+  return field;
+}
+
+module.exports = { extractFields, extractSimpleField };

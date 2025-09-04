@@ -1,4 +1,5 @@
-import fs from 'fs';
+const fs = require('fs');
+const HL7ParserHelpers = require('../helpers/HL7ParserHelpers');
 const LOG_PATH = 'extraction.log';
 const DEBUG_EXTRACTION = process.env.DEBUG_EXTRACTION === '1' || process.env.DEBUG_EXTRACTION === 'true' || process.argv.includes('--debug');
 function logExtraction(msg) {
@@ -7,9 +8,8 @@ function logExtraction(msg) {
   }
 }
 
-// complexHL7FieldExtraction.js
 // Advanced HL7 field extraction supporting nested mapping, offsets, subcomponents, repetitions, and raw HL7
-export function extractFields(segments, mapping, rawHL7, parserConfig) {
+function extractFields(segments, mapping, rawHL7, parserConfig) {
   const result = {};
   for (const key in mapping) {
     let logSteps = [];
@@ -28,7 +28,7 @@ export function extractFields(segments, mapping, rawHL7, parserConfig) {
       if (seg) {
         value = seg;
         logSteps.push(`  Found segment: ${JSON.stringify(seg)}`);
-        const offset = parserConfig && parserConfig.segmentOffsets && parserConfig.segmentOffsets[segName] ? parserConfig.segmentOffsets[segName] : 0;
+        const offset = HL7ParserHelpers.getOffset(parserConfig, segName);
         let currentValue = value;
         for (let i = 0; i < rest.length; i++) {
           const idx = parseInt(rest[i], 10);
@@ -60,7 +60,7 @@ export function extractFields(segments, mapping, rawHL7, parserConfig) {
       logExtraction(logSteps.join('\n'));
     } else if (!isNaN(Number(key))) {
       const seg = segments.find(s => s[0] === key);
-      const offset = parserConfig && parserConfig.segmentOffsets && parserConfig.segmentOffsets[key] ? parserConfig.segmentOffsets[key] : 0;
+      const offset = HL7ParserHelpers.getOffset(parserConfig, key);
       if (seg) {
         const idx = parseInt(key, 10);
         result[mapping[key]] = seg[idx - 1 + offset] || '';
@@ -73,3 +73,5 @@ export function extractFields(segments, mapping, rawHL7, parserConfig) {
   }
   return result;
 }
+
+module.exports = { extractFields };
