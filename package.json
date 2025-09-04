@@ -2,11 +2,23 @@
   "name": "mllp-bird",
   "version": "1.0.0",
   "main": "mllp-server.js",
+  "bin": "mllp-server.js",
   "type": "module",
   "scripts": {
-    "start": "node mllp-server.js"
+    "start": "node mllp-server.js",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "dependencies": {
     "mllp-node": "^1.0.0"
+  },
+  "pkg": {
+    "assets": [
+      "hl7-mapping.json",
+      "hl7-parser-config.json"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "node-fetch": "^2.7.0"
   }
 }

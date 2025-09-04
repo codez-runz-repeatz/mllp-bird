@@ -8,6 +8,7 @@ This project is a Node.js application that listens for HL7 messages over MLLP (M
 - Uses a configurable mapping file (`hl7-mapping.json`) to transform HL7 fields to JSON keys
 - Sends the mapped JSON to the Lyrebird Health API (`/partnerapi/v1/appointments/`) with an API key
 - Sends HL7 ACK responses to the sender
+- Fully cross-platform: build standalone binaries for macOS, Linux, and Windows
 
 ## Prerequisites
 - Node.js (v18 or newer recommended)
@@ -21,6 +22,40 @@ This project is a Node.js application that listens for HL7 messages over MLLP (M
    npm install
    ```
 
+## Building Standalone Executables
+To build binaries for macOS, Linux, and Windows, run:
+```sh
+sh build.sh
+```
+- The executables will be placed in the `dist` directory and versioned (e.g., `mllp-server-1.0.0`, `mllp-server-1.0.0.exe`).
+- The build uses [pkg](https://github.com/vercel/pkg) (automatically installed if missing).
+
+## Running the App
+You can run the app using Node.js or any of the built binaries.
+
+### With Node.js
+```sh
+node mllp-server.js --apikey=YOUR_API_KEY --port=2575
+```
+
+### With Standalone Executables
+- **macOS/Linux:**
+  ```sh
+  ./dist/mllp-server-1.0.0 --apikey=YOUR_API_KEY --port=2575
+  ```
+- **Windows:**
+  ```cmd
+  dist\mllp-server-1.0.0.exe --apikey=YOUR_API_KEY --port=2575
+  ```
+
+## Command-Line Parameters
+- `--apikey=YOUR_API_KEY` : (Required) The API key for Lyrebird Health API. Overrides the `LYREBIRD_API_KEY` environment variable.
+- `--port=PORT` : (Optional) The TCP port to listen on. Overrides the `PORT` environment variable. Default is `2575`.
+
+You can also set these as environment variables:
+- `LYREBIRD_API_KEY` : The API key for Lyrebird Health API.
+- `PORT` : The TCP port to listen on.
+
 ## Configuration
 - Edit `hl7-mapping.json` to define how HL7 fields map to JSON keys. Example:
   ```json
@@ -30,39 +65,15 @@ This project is a Node.js application that listens for HL7 messages over MLLP (M
     "PID.7": "dateOfBirth",
     "PID.8": "sex",
     "SCH.1": "appointmentId",
-    "SCH.11.4": "appointmentDateTime",
-    "PID.5": "patientName"
+    "SCH.11.4": "appointmentDateTime"
   }
   ```
-- Set your Lyrebird Health API key as an environment variable:
-  - On macOS/Linux:
-    ```sh
-    export LYREBIRD_API_KEY=your_api_key_here
-    ```
-  - On Windows (cmd):
-    ```cmd
-    set LYREBIRD_API_KEY=your_api_key_here
-    ```
-  - On Windows (PowerShell):
-    ```powershell
-    $env:LYREBIRD_API_KEY="your_api_key_here"
-    ```
-
-## Usage
-1. Start the server:
-   ```sh
-   node mllp-server.js
-   ```
-2. The server will listen on port 2575 for incoming HL7 messages.
-3. When a message is received:
-   - The original HL7 message is printed.
-   - The mapped JSON is printed.
-   - The JSON is sent to the Lyrebird Health API.
-   - An HL7 ACK is sent back to the sender.
+- Set your Lyrebird Health API key as an environment variable or pass it as a command-line parameter.
 
 ## Customization
-- Change the listening port or host by editing the `PORT` and `HOST` constants in `mllp-server.js`.
+- Change the listening port or host by passing `--port=PORT` or setting the `PORT` environment variable.
 - Update the mapping in `hl7-mapping.json` to match your HL7 message structure and desired JSON output.
+- Adjust parsing rules in `hl7-parser-config.json` if needed.
 
 ## Troubleshooting
 - Ensure your API key is set and valid.

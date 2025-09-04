@@ -1,0 +1,8 @@
+{
+  "segmentOffsets": {
+    "MSH": 1
+  },
+  "fieldSeparator": "|",
+  "componentSeparator": "^",
+  "repetitionSeparator": "~"
+}

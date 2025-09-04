@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1756938039413" clover="3.2.0">
+  <project timestamp="1756938039413" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="19" coveredconditionals="18" methods="7" coveredmethods="7" elements="54" coveredelements="53" complexity="0" loc="28" ncloc="28" packages="1" files="4" classes="4"/>
+    <file name="HL7FieldExtraction.js" path="/Users/duncanlyrebirdhealth.com/mllp-bird/src/mllp-node/HL7FieldExtraction.js">
+      <metrics statements="11" coveredstatements="11" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="10" count="7" type="cond" truecount="5" falsecount="0"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+    </file>
+    <file name="HL7JSONParser.js" path="/Users/duncanlyrebirdhealth.com/mllp-bird/src/mllp-node/HL7JSONParser.js">
+      <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="10" count="7" type="cond" truecount="4" falsecount="0"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="4" type="stmt"/>
+    </file>
+    <file name="logger.js" path="/Users/duncanlyrebirdhealth.com/mllp-bird/src/mllp-node/logger.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+    </file>
+    <file name="restApiForward.js" path="/Users/duncanlyrebirdhealth.com/mllp-bird/src/mllp-node/restApiForward.js">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
