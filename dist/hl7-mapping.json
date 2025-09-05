@@ -1,0 +1,17 @@
+{
+  "appointments": [
+    {
+      "PID.5.1": "patientName",
+      "PID.8": "patientGender",
+      "SCH.7": "appointmentTime",
+      "SCH.25": "appointmentStatus",
+      "PID.13": "patientEmail",
+      "ZLY.1": "patientLyrebirdConsent",
+      "ZLY.2": "sendPatientLetter",
+      "NTE.3": "notepad",
+      "PID.3.1.1": "emrRecordId",
+      "SCH.1": "upcomingOrder"
+    }
+  ],
+  "SCH.1": "userId"
+}
