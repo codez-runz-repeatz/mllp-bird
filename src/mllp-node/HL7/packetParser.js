@@ -33,13 +33,27 @@ function computeField(val, segments, rawHL7, config) {
  * @param {object} [parserConfig] - Optional parser config (segmentOffsets, separators, etc.)
  * @returns {object} - Parsed fields as key-value pairs.
  */
+
+function appointment(hl7Message, mapping, parserConfig = {}){
+    const mappedAppointments = parseHL7toJSON(hl7Message, mapping, parserConfig);
+    console.log('Mapped JSON (appointments):', mappedAppointments);
+    return mappedAppointments;
+}
+
+function practitioner(hl7Message, mapping, parserConfig = {}) {
+          const mappedPractitioner = parseHL7toJSON(hl7Message, mapping, parserConfig);
+          console.log('Mapped JSON (practitioner):', mappedPractitioner);
+          return mappedPractitioner;
+        
+}
+
 function parseHL7toJSON(hl7Message, mapping, parserConfig = {}) {
   if (!hl7Message || !mapping) return {};
-  // Default HL7 separators if not provided
+  
   const fieldSeparator = parserConfig.fieldSeparator || '|';
   const segmentSeparator = parserConfig.segmentSeparator || /\r|\n/;
   const componentSeparator = parserConfig.componentSeparator || '^';
-  // Split message into segments and fields
+
   const segments = hl7Message.split(segmentSeparator).map(seg => seg.trim().split(fieldSeparator));
   // Provide parserConfig with defaults for extractFields
   const config = {
@@ -48,6 +62,7 @@ function parseHL7toJSON(hl7Message, mapping, parserConfig = {}) {
     segmentSeparator,
     componentSeparator
   };
+  
   // Recursively extract fields to match mapping structure
   function buildJson(mappingNode) {
     if (Array.isArray(mappingNode)) {
@@ -68,8 +83,9 @@ function parseHL7toJSON(hl7Message, mapping, parserConfig = {}) {
     }
     return result;
   }
+
   const jsonResult = buildJson(mapping);
   return jsonResult;
 }
 
-module.exports = { parseHL7toJSON };
+module.exports = { appointment, practitioner };

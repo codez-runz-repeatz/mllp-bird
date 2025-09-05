@@ -14,6 +14,16 @@ function getLogFilePath(tail = false) {
 // Print intended log file path and the actual file loaded
 console.log('[MLLP LOGGER] Intended log file path:', getLogFilePath(true));
 console.log('[MLLP LOGGER] logger.js loaded from:', __filename);
+
+function appendJSON(json){
+  const logFileTail = getLogFilePath(true);
+  try {
+    fs.appendFileSync(logFileTail, JSON.stringify(json, null, 2) + '\n', 'utf8');
+  } catch (err) {
+    console.warn('[MLLP LOGGER] Failed to write log file:', err.message);
+  }
+}
+
 function appendToLogFile(entry) {
   const logFileTail = getLogFilePath(true);
   const logFileFinal = getLogFilePath(false);
@@ -51,4 +61,4 @@ function appendToLogFile(entry) {
   }
 }
 
-module.exports = { getLogFilePath, appendToLogFile };
+module.exports = { getLogFilePath, appendToLogFile, appendJSON };

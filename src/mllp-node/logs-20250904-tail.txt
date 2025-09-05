@@ -1,783 +1,0 @@
-Timestamp: 2025-09-04T06:36:13.732Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON:
-undefined
-
----
-Timestamp: 2025-09-04T06:37:52.451Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON:
-undefined
-
----
-Timestamp: 2025-09-04T06:38:14.321Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON:
-undefined
-
----
-Timestamp: 2025-09-04T06:38:47.817Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON:
-undefined
-
----
-Timestamp: 2025-09-04T06:40:34.370Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
-Mapped JSON (practitioner):
-{
-  "email": "gkhong.khong@alderhey.com",
-  "firstName": "",
-  "lastName": ""
-}
-
----
-Timestamp: 2025-09-04T07:49:23.806Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T07:53:22.896Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T07:55:11.103Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T07:55:58.183Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T07:58:03.821Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T07:58:57.443Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T07:59:43.853Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:00:11.312Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:02:15.391Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:03:09.729Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:03:44.625Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:03:51.178Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:08:18.336Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:09:40.428Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:11:03.684Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:13:59.968Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:15:38.231Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:16:33.977Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:17:05.065Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:19:43.854Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:21:21.684Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:22:41.694Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:24:32.291Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:26:07.208Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:29:16.282Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:29:58.525Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "gkhong.khong@alderhey.com",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:33:01.092Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "userId": "",
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ]
-}
-
----
-Timestamp: 2025-09-04T08:33:35.785Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ],
-  "userId": ""
-}
-
----
-Timestamp: 2025-09-04T08:36:42.440Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ],
-  "userId": ""
-}
-
----
-Timestamp: 2025-09-04T08:36:51.249Z
-HL7:
-MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
-
-Mapped JSON (appointments):
-{
-  "appointments": [
-    {
-      "patientName": "Surname",
-      "patientGender": "F",
-      "appointmentTime": "",
-      "appointmentStatus": "",
-      "patientEmail": "07777777777~",
-      "patientLyrebirdConsent": "",
-      "sendPatientLetter": "",
-      "notepad": "",
-      "emrRecordId": "AH1234567",
-      "upcomingOrder": ""
-    }
-  ],
-  "userId": ""
-}
-
----

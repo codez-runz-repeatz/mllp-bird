@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals';
-import { restApiForward } from '../src/mllp-node/restApiForward.js';
+import { restApiForward } from '../src/mllp-node/httpsClient.js';
 
 jest.unstable_mockModule('node-fetch', () => ({
   default: jest.fn().mockResolvedValue({
