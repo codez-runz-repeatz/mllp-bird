@@ -1,8 +1,8 @@
 const { appointment, practitioner } = require('../HL7/packetParser.js');
-const { loadConfig } = require('./params.js');
+const { loadConfig, mappingAppointments, mappingPractitioner } = require('./params.js');
 
-const mappingAppointments = loadConfig('hl7-mapping.json');
-const mappingPractitioner = loadConfig('hl7-mapping-practitioner.json');
+const mappAppointments = mappingAppointments();
+const mappPractitioner = loadConfig('hl7-mapping-practitioner.json');
 const parserConfig = loadConfig('hl7-parser-config.json');
 
 const SB = String.fromCharCode(0x0b); // <VT> vertical tab
@@ -16,11 +16,11 @@ class HL7Mapper {
 
   appointments() {
 
-    return appointment(this.hl7, mappingAppointments, parserConfig);
+    return appointment(this.hl7, mappAppointments, parserConfig);
   }
 
   practitioner() {
-    return practitioner(this.hl7, mappingPractitioner, parserConfig);
+    return practitioner(this.hl7, mappPractitioner, parserConfig);
   }
 
   acknowledgment() {

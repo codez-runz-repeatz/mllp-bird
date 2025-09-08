@@ -1,0 +1,30 @@
+{
+    "api": {
+        "key": "your_api_key",
+        "baseurl": "https://api.lyrebirdhealth.com"
+    },
+    "notes": {
+        "route": "/notes"
+    },
+    "appointments": {
+        "route": "/appointments",
+        "mapping": "hl7-mapping.json"
+    },
+    "practitioners": {
+        "route": "/practitioners",
+        "mapping": "hl7-mapping-practitioner.json"
+    },
+    "hl7": {
+        "port": 6969,
+        "acknowledgementCode": "AA",
+        "encodingCharacters": "^~\\&",
+        "sendingApplication": "MLPBIRD",
+        "sendingFacility": "MLPBIRD"
+    },
+    "emr": {
+        "receivingApplication": "EMRSystem",
+        "receivingFacility": "EMRFacility",
+        "host": "localhost",
+        "port": 5000
+    }
+}

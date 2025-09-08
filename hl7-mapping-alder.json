@@ -1,0 +1,21 @@
+{ 
+  "appointments":
+    [
+      {
+        "EVN.6": "appointmentStatus",
+        "EVN.7": "appointmentTime",
+        "PID.3.1.1": "emrRecordId",
+        "EVN.5" : "notepad",
+        "PID.13": "patientEmail",
+        "EVN.4": "patientLyrebirdConsent",
+        "PID.5": "patientName",
+        "PID.8": "patientGender",
+        "PID.6" : "sendPatientLetter",
+        "PID.7" : "upcomingOrder"
+      }
+    ],
+  "PV1.7.1": "userId"
+}
+
+
+

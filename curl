@@ -1,1 +1,0 @@
-curl -X POST 'https://app.lyrebirdhealth.com/partnerapi/v1/appointments/' -H 'Content-Type: application/json' -d '{"userId":"GKHONG","appointments":[{"patientName":"Surname","patientGender":"F","appointmentTime":"","appointmentStatus":"","patientEmail":"07777777777~","patientLyrebirdConsent":"","sendPatientLetter":"","notepad":"","emrRecordId":"AH1234567","upcomingOrder":""}]}'

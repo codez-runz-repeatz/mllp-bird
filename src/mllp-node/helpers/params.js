@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const configuration = require('../configuration.js');
 
 function loadConfig(Asset) {
   const fallbackAsset = path.join(__dirname, '../../../', Asset);
@@ -15,20 +16,44 @@ function loadConfig(Asset) {
   }
 }
 
+const mllpConfig = loadConfig('mllp-bird.json');
+const configInstance = new configuration(mllpConfig);
+
 function isPractitioner(){
-    if (process.argv.includes('--practitioner')){
-        return true;
-    }
-    return false;
+    return configInstance.practitioners();
+}
+
+function shouldFetch() {
+  return configInstance.notes();
 }
 
 function getApiKey() {
-  const envKey = process.env.LYREBIRD_API_KEY;
-  const argKey = process.argv.find(arg => arg.startsWith('--apikey='));
-  if (argKey) {
-    return argKey.split('=')[1];
-  }
-  return envKey || '<YOUR_API_KEY_HERE>';
+  return envKey = configInstance.apiKey();
 }
 
-module.exports = { loadConfig, getApiKey, isPractitioner };
+
+
+function appointmentURL() {
+  return configInstance.apiBaseUrl() + "/" + configInstance.appointmentsRoute();
+}
+
+function practitionerURL() {
+  return configInstance.apiBaseUrl() + "/" + configInstance.practitionersRoute();
+}
+
+function notesURL() {
+  return configInstance.apiBaseUrl() + configInstance.notesRoute();
+}
+
+function snifferPort() {
+  return configInstance.hl7Port();
+}
+
+function mappingAppointments() {
+  return loadConfig(configInstance.appointmentsMapping());
+}
+
+function mappingPractitioner() {
+  return loadConfig(configInstance.practitionersMapping());
+}
+module.exports = { loadConfig, getApiKey, isPractitioner, shouldFetch, appointmentURL, practitionerURL, notesURL, snifferPort, mappingAppointments, mappingPractitioner };

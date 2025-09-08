@@ -2,6 +2,7 @@ const fs = require('fs');
 const HL7ParserHelpers = require('../helpers/HL7ParserHelpers');
 const LOG_PATH = 'extraction.log';
 const DEBUG_EXTRACTION = process.env.DEBUG_EXTRACTION === '1' || process.env.DEBUG_EXTRACTION === 'true' || process.argv.includes('--debug');
+
 function logExtraction(msg) {
   if (DEBUG_EXTRACTION) {
     fs.appendFileSync(LOG_PATH, msg + '\n');
@@ -11,6 +12,7 @@ function logExtraction(msg) {
 // Advanced HL7 field extraction supporting nested mapping, offsets, subcomponents, repetitions, and raw HL7
 function extractFields(segments, mapping, rawHL7, parserConfig) {
   const result = {};
+  
   for (const key in mapping) {
     let logSteps = [];
     if (typeof mapping[key] === 'object' && mapping[key] !== null && !Array.isArray(mapping[key])) {

@@ -1,6 +1,6 @@
 {
   "segmentOffsets": {
-    "MSH": 1
+    "MSH": -1
   },
   "fieldSeparator": "|",
   "componentSeparator": "^",

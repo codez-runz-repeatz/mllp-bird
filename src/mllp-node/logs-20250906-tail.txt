@@ -1,0 +1,1777 @@
+Timestamp: 2025-09-06T04:44:13.067Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T04:44:57.530Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T04:47:50.214Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T04:49:46.021Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T04:50:21.621Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T04:58:05.466Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T04:59:19.202Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:07:34.418Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "message": [
+    {
+      "Field Separator": "MSH",
+      "Encoding Characters": "^~\\&",
+      "Sending Application": "HIS",
+      "Sending Facility": "RLC",
+      "Receiving Application": "",
+      "Receiving Facility": "",
+      "Date/Time of Message": "20250902",
+      "Security": "",
+      "Message Type": "ADT^A05",
+      "Message Control ID": "16",
+      "Processing ID": "P",
+      "Version ID": "2.4",
+      "Sequence Number": "",
+      "Continuation Pointer": "",
+      "Accept Acknowledgment Type": "AL",
+      "Application Acknowledgment Type": "NE",
+      "Country Code": "",
+      "Character Set": "",
+      "Principal Language of Message": "",
+      "Alternate Character Set Handling Scheme": "",
+      "Message Profile Identifier": ""
+    }
+  ],
+  "eventtype": [
+    {
+      "Event Type Code": "A05",
+      "Recorded Date/Time": "",
+      "Date/Time Planned Event": "",
+      "Event Reason Code": "",
+      "Operator ID": "",
+      "Event Occurred": "",
+      "Event Facility": ""
+    }
+  ],
+  "PaitentIdentification": [
+    {
+      "Set ID - PID": "1",
+      "Patient ID": "",
+      "Patient Identifier List": "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~",
+      "Alternate Patient ID - PID": "",
+      "Patient Name": "Surname^First Name^^^^^L",
+      "Mother's Maiden Name": "",
+      "Date/Time of Birth": "20250101",
+      "Administrative Sex": "F",
+      "Patient Alias": "",
+      "Race": "",
+      "Patient Address": "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P",
+      "County Code": "",
+      "Phone Number - Home": "07777777777~",
+      "Phone Number - Business": "",
+      "Primary Language": "",
+      "Marital Status": "",
+      "Religion": "",
+      "Patient Account Number": "V00007605635",
+      "SSN Number - Patient": "123 456 7891",
+      "Driver's License Number - Patient": "",
+      "Mother's Identifier": "",
+      "Ethnic Group": "",
+      "Birth Place": "",
+      "Multiple Birth Indicator": "",
+      "Birth Order": "",
+      "Citizenship": "",
+      "Veterans Military Status": "",
+      "Nationality": "",
+      "Patient Death Date and Time": "",
+      "Patient Death Indicator": "",
+      "Identity Unknown Indicator": "",
+      "Identity Reliability Code": "",
+      "Last Update Date/Time": "",
+      "Last Update Facility": "",
+      "Species Code": "",
+      "Breed Code": "",
+      "Strain": "",
+      "Production Class Code": "",
+      "Tribal Citizenship": ""
+    }
+  ],
+  "PaitentAdditonalDemographic": [
+    {
+      "Living Dependency": "",
+      "Living Arrangement": "",
+      "Patient Primary Facility": "^^N82053^AINTREE PARK GROUPs PRACTICE",
+      "Patient Primary Care Provider Name & ID No.": "G8503501^HUBBERT CM^^",
+      "Student Indicator": ""
+    }
+  ],
+  "NextofKin": [
+    {
+      "Set ID - NK1": "1",
+      "Name": "Test^Mum",
+      "Relationship": "M^",
+      "Address": "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB",
+      "Phone Number": "07777777777",
+      "Business Phone Number": "",
+      "Contact Role": "",
+      "Start Date": ""
+    }
+  ],
+  "PatientVisit": [
+    {
+      "Set ID - PV1": "1",
+      "Patient Class": "P",
+      "Assigned Patient Location": "1.2 ENT",
+      "Admission Type": "",
+      "Preadmit Number": "F",
+      "Prior Patient Location": "",
+      "Attending Doctor": "GKHONG^Khong^^Grace",
+      "Referring Doctor": "",
+      "Consulting Doctor": "ENTFELLOW3",
+      "Hospital Service": "ENT",
+      "Temporary Location": "",
+      "Preadmit Test Indicator": "",
+      "Readmission Indicator": "",
+      "Admit Source": "",
+      "Ambulatory Status": "",
+      "VIP Indicator": "",
+      "Admitting Doctor": "",
+      "Patient Type": "CLI",
+      "Visit Number": "",
+      "Financial Class": "",
+      "Charge Price Indicator": "",
+      "Courtesy Code": "ENTFELLOW3",
+      "Credit Rating": "",
+      "Contract Code": "",
+      "Contract Effective Date": "",
+      "Contract Amount": "",
+      "Contract Period": "",
+      "Interest Code": "",
+      "Transfer to Bad Debt Code": "",
+      "Transfer to Bad Debt Date": "",
+      "Bad Debt Agency Code": "",
+      "Bad Debt Transfer Amount": "",
+      "Bad Debt Recovery Amount": "",
+      "Delete Account Indicator": "",
+      "Delete Account Date": "",
+      "Discharge Disposition": "",
+      "Discharged to Location": "",
+      "Diet Type": "",
+      "Servicing Facility": "RLC",
+      "Bed Status": "",
+      "Account Status": "PRE",
+      "Pending Location": "",
+      "Prior Temporary Location": "",
+      "Admit Date/Time": "",
+      "Discharge Date/Time": "",
+      "Current Patient Balance": "",
+      "Total Charges": "",
+      "Total Adjustments": "",
+      "Total Payments": "",
+      "Alternate Visit ID": "",
+      "Visit Indicator": "",
+      "Other Healthcare Provider": ""
+    }
+  ],
+  "Attending Doctor ID Number": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:11:19.051Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "",
+      "patientEmail": "",
+      "patientGender": "",
+      "patientName": "",
+      "userId": ""
+    }
+  ],
+  "userId": ""
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:16:03.833Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567^^^^MR^RLC",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L",
+      "userId": ""
+    }
+  ],
+  "userId": ""
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:16:58.361Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567^^^^MR^RLC",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": ""
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:17:26.657Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567^^^^MR^RLC",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": ""
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:17:46.624Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567^^^^MR^RLC",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:19:02.069Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||||PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:20:20.170Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:20:53.230Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:21:29.652Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||2db6a564-2226-4b4e-90b4-74fbc9c86558^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||GKHONG^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "2db6a564-2226-4b4e-90b4-74fbc9c86558",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": "GKHONG"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "gkhong.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:22:11.714Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||2db6a564-2226-4b4e-90b4-74fbc9c86558^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567",
+      "patientEmail": "07777777777~",
+      "patientGender": "F",
+      "patientName": "Surname^First Name^^^^^L"
+    }
+  ],
+  "userId": "2db6a564-2226-4b4e-90b4-74fbc9c86558"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "2db6a56422264b4e90b474fbc9c86558.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:24:24.933Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||2db6a564-2226-4b4e-90b4-74fbc9c86558^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "",
+      "appointmentTime": "",
+      "emrRecordId": "AH1234567",
+      "notepad": "",
+      "patientEmail": "07777777777~",
+      "patientLyrebirdConsent": "",
+      "patientName": "Surname^First Name^^^^^L",
+      "sendPatientLetter": "",
+      "upcomingOrder": "20250101"
+    }
+  ],
+  "userId": "2db6a564-2226-4b4e-90b4-74fbc9c86558"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "2db6a56422264b4e90b474fbc9c86558.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:25:01.911Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||07777777777~|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||2db6a564-2226-4b4e-90b4-74fbc9c86558^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "SCHEDULED",
+      "appointmentTime": "2024-01-15T13:00:00Z",
+      "emrRecordId": "AH1234567",
+      "notepad": "",
+      "patientEmail": "07777777777~",
+      "patientLyrebirdConsent": "",
+      "patientName": "Surname^First Name^^^^^L",
+      "sendPatientLetter": "",
+      "upcomingOrder": "20250101"
+    }
+  ],
+  "userId": "2db6a564-2226-4b4e-90b4-74fbc9c86558"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "2db6a56422264b4e90b474fbc9c86558.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:26:05.537Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||alice.brown@example.com|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||2db6a564-2226-4b4e-90b4-74fbc9c86558^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "SCHEDULED",
+      "appointmentTime": "2024-01-15T13:00:00Z",
+      "emrRecordId": "AH1234567",
+      "notepad": "",
+      "patientEmail": "alice.brown@example.com",
+      "patientLyrebirdConsent": "",
+      "patientName": "Surname^First Name^^^^^L",
+      "sendPatientLetter": "",
+      "upcomingOrder": "20250101"
+    }
+  ],
+  "userId": "2db6a564-2226-4b4e-90b4-74fbc9c86558"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "2db6a56422264b4e90b474fbc9c86558.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---
+Timestamp: 2025-09-06T05:27:56.301Z
+HL7:
+MSH|^~\&|HIS|RLC|||20250902||ADT^A05|16|P|2.4|||AL|NE||||||EVN|A05|||||SCHEDULED|2024-01-15T13:00:00Z|PID|1||AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~||Surname^First Name^^^^^L||20250101|F|||TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P||alice.brown@example.com|||||V00007605635|123 456 7891||||||||||||||||||||PD1|||^^N82053^AINTREE PARK GROUPs PRACTICE|G8503501^HUBBERT CM^^|NK1|1|Test^Mum|M^|ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB|07777777777|||PV1|1|P|1.2 ENT||F||2db6a564-2226-4b4e-90b4-74fbc9c86558^Khong^^Grace||ENTFELLOW3|ENT||||||||CLI||||ENTFELLOW3|||||||||||||||||RLC||PRE||||||||||||
+
+Mapped JSON (appointments):
+{
+  "appointments": [
+    {
+      "appointmentStatus": "SCHEDULED",
+      "appointmentTime": "2024-01-15T13:00:00Z",
+      "emrRecordId": "AH1234567",
+      "notepad": "",
+      "patientEmail": "alice.brown@example.com",
+      "patientLyrebirdConsent": "",
+      "patientName": "Surname^First Name^^^^^L",
+      "patientGender": "F",
+      "sendPatientLetter": "",
+      "upcomingOrder": "20250101"
+    }
+  ],
+  "userId": "2db6a564-2226-4b4e-90b4-74fbc9c86558"
+}
+
+Mapped JSON (practitioner):
+{
+  "email": "2db6a56422264b4e90b474fbc9c86558.khong@alderhey.com",
+  "firstName": "",
+  "lastName": ""
+}
+
+---

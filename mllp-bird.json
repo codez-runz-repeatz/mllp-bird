@@ -1,0 +1,23 @@
+{
+    "api": {
+        "key": "lk_c1f549a226efeea9b869bbbd3d0073efb4c5397edda8e559b837efa9f40e2fea",
+        "baseurl": "https://stg.lyrebirdhealth.com/partnerapi/v1"
+    },
+    "appointments": {
+        "route": "appointments",
+        "mapping": "hl7-mapping-alder.json"
+    },
+    "hl7": {
+        "port": 2575,
+        "acknowledgementCode": "AA",
+        "encodingCharacters": "^~\\&",
+        "sendingApplication": "MLPBIRD",
+        "sendingFacility": "MLPBIRD"
+    },
+    "emr": {
+        "receivingApplication": "EMRSystem",
+        "receivingFacility": "EMRFacility",
+        "host": "localhost",
+        "port": 5000
+    }
+}

@@ -1,163 +1,536 @@
-Extracting PID.5.1 for mapping to patientName
+Extracting MSH.1 for mapping to Field Separator
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 1 + offset -1: "MSH"
+  Final value: "MSH"
+Extracting MSH.2 for mapping to Encoding Characters
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 2 + offset -1: "^~\\&"
+  Final value: "^~\\&"
+Extracting MSH.3 for mapping to Sending Application
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 3 + offset -1: "HIS"
+  Final value: "HIS"
+Extracting MSH.4 for mapping to Sending Facility
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 4 + offset -1: "RLC"
+  Final value: "RLC"
+Extracting MSH.5 for mapping to Receiving Application
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 5 + offset -1: ""
+  Final value: ""
+Extracting MSH.6 for mapping to Receiving Facility
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 6 + offset -1: ""
+  Final value: ""
+Extracting MSH.7 for mapping to Date/Time of Message
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 7 + offset -1: "20250902"
+  Final value: "20250902"
+Extracting MSH.8 for mapping to Security
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 8 + offset -1: ""
+  Final value: ""
+Extracting MSH.9 for mapping to Message Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 9 + offset -1: "ADT^A05"
+  Final value: "ADT^A05"
+Extracting MSH.10 for mapping to Message Control ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 10 + offset -1: "16"
+  Final value: "16"
+Extracting MSH.11 for mapping to Processing ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 11 + offset -1: "P"
+  Final value: "P"
+Extracting MSH.12 for mapping to Version ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 12 + offset -1: "2.4"
+  Final value: "2.4"
+Extracting MSH.13 for mapping to Sequence Number
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 13 + offset -1: ""
+  Final value: ""
+Extracting MSH.14 for mapping to Continuation Pointer
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 14 + offset -1: ""
+  Final value: ""
+Extracting MSH.15 for mapping to Accept Acknowledgment Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 15 + offset -1: "AL"
+  Final value: "AL"
+Extracting MSH.16 for mapping to Application Acknowledgment Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 16 + offset -1: "NE"
+  Final value: "NE"
+Extracting MSH.17 for mapping to Country Code
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 17 + offset -1: ""
+  Final value: ""
+Extracting MSH.18 for mapping to Character Set
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 18 + offset -1: ""
+  Final value: ""
+Extracting MSH.19 for mapping to Principal Language of Message
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 19 + offset -1: ""
+  Final value: ""
+Extracting MSH.20 for mapping to Alternate Character Set Handling Scheme
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 20 + offset -1: ""
+  Final value: ""
+Extracting MSH.21 for mapping to Message Profile Identifier
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 21 + offset -1: ""
+  Final value: ""
+Extracting EVN.1 for mapping to Event Type Code
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 1 + offset 0: "A05"
+  Final value: "A05"
+Extracting EVN.2 for mapping to Recorded Date/Time
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting EVN.3 for mapping to Date/Time Planned Event
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 3 + offset 0: ""
+  Final value: ""
+Extracting EVN.4 for mapping to Event Reason Code
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting EVN.5 for mapping to Operator ID
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 5 + offset 0: ""
+  Final value: ""
+Extracting EVN.6 for mapping to Event Occurred
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting EVN.7 for mapping to Event Facility
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 7 + offset 0: ""
+  Final value: ""
+Extracting PID.1 for mapping to Set ID - PID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting PID.2 for mapping to Patient ID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting PID.3 for mapping to Patient Identifier List
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
+  Final value: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
+Extracting PID.4 for mapping to Alternate Patient ID - PID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting PID.5 for mapping to Patient Name
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
+  Final value: "Surname^First Name^^^^^L"
+Extracting PID.6 for mapping to Mother's Maiden Name
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting PID.7 for mapping to Date/Time of Birth
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "20250101"
+  Final value: "20250101"
+Extracting PID.8 for mapping to Administrative Sex
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 8 + offset 0: "F"
   Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
+Extracting PID.9 for mapping to Patient Alias
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 9 + offset 0: ""
   Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
+Extracting PID.10 for mapping to Race
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 10 + offset 0: ""
   Final value: ""
-Extracting PID.13 for mapping to patientEmail
+Extracting PID.11 for mapping to Patient Address
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 11 + offset 0: "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P"
+  Final value: "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P"
+Extracting PID.12 for mapping to County Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 12 + offset 0: ""
+  Final value: ""
+Extracting PID.13 for mapping to Phone Number - Home
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 13 + offset 0: "07777777777~"
   Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
-  Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
-  Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
-  Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
+Extracting PID.14 for mapping to Phone Number - Business
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
+    Field index 14 + offset 0: ""
   Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
+Extracting PID.15 for mapping to Primary Language
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 15 + offset 0: ""
   Final value: ""
-Extracting PID.5.1 for mapping to patientName
+Extracting PID.16 for mapping to Marital Status
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
+    Field index 16 + offset 0: ""
+  Final value: ""
+Extracting PID.17 for mapping to Religion
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 8 + offset 0: "F"
+    Field index 17 + offset 0: ""
+  Final value: ""
+Extracting PID.18 for mapping to Patient Account Number
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 18 + offset 0: "V00007605635"
+  Final value: "V00007605635"
+Extracting PID.19 for mapping to SSN Number - Patient
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 19 + offset 0: "123 456 7891"
+  Final value: "123 456 7891"
+Extracting PID.20 for mapping to Driver's License Number - Patient
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 20 + offset 0: ""
+  Final value: ""
+Extracting PID.21 for mapping to Mother's Identifier
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 21 + offset 0: ""
+  Final value: ""
+Extracting PID.22 for mapping to Ethnic Group
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 22 + offset 0: ""
+  Final value: ""
+Extracting PID.23 for mapping to Birth Place
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 23 + offset 0: ""
+  Final value: ""
+Extracting PID.24 for mapping to Multiple Birth Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 24 + offset 0: ""
+  Final value: ""
+Extracting PID.25 for mapping to Birth Order
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 25 + offset 0: ""
+  Final value: ""
+Extracting PID.26 for mapping to Citizenship
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 26 + offset 0: ""
+  Final value: ""
+Extracting PID.27 for mapping to Veterans Military Status
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 27 + offset 0: ""
+  Final value: ""
+Extracting PID.28 for mapping to Nationality
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 28 + offset 0: ""
+  Final value: ""
+Extracting PID.29 for mapping to Patient Death Date and Time
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 29 + offset 0: ""
+  Final value: ""
+Extracting PID.30 for mapping to Patient Death Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 30 + offset 0: ""
+  Final value: ""
+Extracting PID.31 for mapping to Identity Unknown Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 31 + offset 0: ""
+  Final value: ""
+Extracting PID.32 for mapping to Identity Reliability Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 32 + offset 0: ""
+  Final value: ""
+Extracting PID.33 for mapping to Last Update Date/Time
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 33 + offset 0: ""
+  Final value: ""
+Extracting PID.34 for mapping to Last Update Facility
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 34 + offset 0: ""
+  Final value: ""
+Extracting PID.35 for mapping to Species Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 35 + offset 0: ""
+  Final value: ""
+Extracting PID.36 for mapping to Breed Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 36 + offset 0: ""
+  Final value: ""
+Extracting PID.37 for mapping to Strain
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 37 + offset 0: ""
+  Final value: ""
+Extracting PID.38 for mapping to Production Class Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 38 + offset 0: ""
+  Final value: ""
+Extracting PID.39 for mapping to Tribal Citizenship
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 39 + offset 0: ""
+  Final value: ""
+Extracting PD1.1 for mapping to Living Dependency
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 1 + offset 0: ""
+  Final value: ""
+Extracting PD1.2 for mapping to Living Arrangement
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting PD1.3 for mapping to Patient Primary Facility
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 3 + offset 0: "^^N82053^AINTREE PARK GROUPs PRACTICE"
+  Final value: "^^N82053^AINTREE PARK GROUPs PRACTICE"
+Extracting PD1.4 for mapping to Patient Primary Care Provider Name & ID No.
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 4 + offset 0: "G8503501^HUBBERT CM^^"
+  Final value: "G8503501^HUBBERT CM^^"
+Extracting PD1.5 for mapping to Student Indicator
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 5 + offset 0: ""
+  Final value: ""
+Extracting NK1.1 for mapping to Set ID - NK1
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting NK1.2 for mapping to Name
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 2 + offset 0: "Test^Mum"
+  Final value: "Test^Mum"
+Extracting NK1.3 for mapping to Relationship
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 3 + offset 0: "M^"
+  Final value: "M^"
+Extracting NK1.4 for mapping to Address
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 4 + offset 0: "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB"
+  Final value: "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB"
+Extracting NK1.5 for mapping to Phone Number
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 5 + offset 0: "07777777777"
+  Final value: "07777777777"
+Extracting NK1.6 for mapping to Business Phone Number
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting NK1.7 for mapping to Contact Role
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 7 + offset 0: ""
+  Final value: ""
+Extracting NK1.8 for mapping to Start Date
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 8 + offset 0: ""
+  Final value: ""
+Extracting PV1.1 for mapping to Set ID - PV1
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting PV1.2 for mapping to Patient Class
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 2 + offset 0: "P"
+  Final value: "P"
+Extracting PV1.3 for mapping to Assigned Patient Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 3 + offset 0: "1.2 ENT"
+  Final value: "1.2 ENT"
+Extracting PV1.4 for mapping to Admission Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting PV1.5 for mapping to Preadmit Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 5 + offset 0: "F"
   Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
+Extracting PV1.6 for mapping to Prior Patient Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 6 + offset 0: ""
   Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
+Extracting PV1.7 for mapping to Attending Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
+  Final value: "GKHONG^Khong^^Grace"
+Extracting PV1.8 for mapping to Referring Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 8 + offset 0: ""
   Final value: ""
-Extracting PID.13 for mapping to patientEmail
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 13 + offset 0: "07777777777~"
-  Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
+Extracting PV1.9 for mapping to Consulting Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 9 + offset 0: "ENTFELLOW3"
+  Final value: "ENTFELLOW3"
+Extracting PV1.10 for mapping to Hospital Service
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 10 + offset 0: "ENT"
+  Final value: "ENT"
+Extracting PV1.11 for mapping to Temporary Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 11 + offset 0: ""
   Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
+Extracting PV1.12 for mapping to Preadmit Test Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 12 + offset 0: ""
   Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
+Extracting PV1.13 for mapping to Readmission Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 13 + offset 0: ""
   Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
+Extracting PV1.14 for mapping to Admit Source
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 14 + offset 0: ""
   Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
+Extracting PV1.15 for mapping to Ambulatory Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 15 + offset 0: ""
   Final value: ""
-Extracting PID.5.1 for mapping to patientName
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 8 + offset 0: "F"
-  Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
+Extracting PV1.16 for mapping to VIP Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 16 + offset 0: ""
   Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
+Extracting PV1.17 for mapping to Admitting Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 17 + offset 0: ""
   Final value: ""
-Extracting PID.13 for mapping to patientEmail
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 13 + offset 0: "07777777777~"
-  Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
+Extracting PV1.18 for mapping to Patient Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 18 + offset 0: "CLI"
+  Final value: "CLI"
+Extracting PV1.19 for mapping to Visit Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 19 + offset 0: ""
   Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
+Extracting PV1.20 for mapping to Financial Class
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 20 + offset 0: ""
   Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
+Extracting PV1.21 for mapping to Charge Price Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 21 + offset 0: ""
   Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
+Extracting PV1.22 for mapping to Courtesy Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 22 + offset 0: "ENTFELLOW3"
+  Final value: "ENTFELLOW3"
+Extracting PV1.23 for mapping to Credit Rating
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 23 + offset 0: ""
   Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
+Extracting PV1.24 for mapping to Contract Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 24 + offset 0: ""
   Final value: ""
-Extracting PID.5.1 for mapping to patientName
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 8 + offset 0: "F"
-  Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
+Extracting PV1.25 for mapping to Contract Effective Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 25 + offset 0: ""
   Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
+Extracting PV1.26 for mapping to Contract Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 26 + offset 0: ""
   Final value: ""
-Extracting PID.13 for mapping to patientEmail
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 13 + offset 0: "07777777777~"
-  Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
+Extracting PV1.27 for mapping to Contract Period
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 27 + offset 0: ""
   Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
+Extracting PV1.28 for mapping to Interest Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 28 + offset 0: ""
   Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
+Extracting PV1.29 for mapping to Transfer to Bad Debt Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 29 + offset 0: ""
   Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
+Extracting PV1.30 for mapping to Transfer to Bad Debt Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 30 + offset 0: ""
   Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
+Extracting PV1.31 for mapping to Bad Debt Agency Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 31 + offset 0: ""
   Final value: ""
+Extracting PV1.32 for mapping to Bad Debt Transfer Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 32 + offset 0: ""
+  Final value: ""
+Extracting PV1.33 for mapping to Bad Debt Recovery Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 33 + offset 0: ""
+  Final value: ""
+Extracting PV1.34 for mapping to Delete Account Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 34 + offset 0: ""
+  Final value: ""
+Extracting PV1.35 for mapping to Delete Account Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 35 + offset 0: ""
+  Final value: ""
+Extracting PV1.36 for mapping to Discharge Disposition
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 36 + offset 0: ""
+  Final value: ""
+Extracting PV1.37 for mapping to Discharged to Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 37 + offset 0: ""
+  Final value: ""
+Extracting PV1.38 for mapping to Diet Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 38 + offset 0: ""
+  Final value: ""
+Extracting PV1.39 for mapping to Servicing Facility
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 39 + offset 0: "RLC"
+  Final value: "RLC"
+Extracting PV1.40 for mapping to Bed Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 40 + offset 0: ""
+  Final value: ""
+Extracting PV1.41 for mapping to Account Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 41 + offset 0: "PRE"
+  Final value: "PRE"
+Extracting PV1.42 for mapping to Pending Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 42 + offset 0: ""
+  Final value: ""
+Extracting PV1.43 for mapping to Prior Temporary Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 43 + offset 0: ""
+  Final value: ""
+Extracting PV1.44 for mapping to Admit Date/Time
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 44 + offset 0: ""
+  Final value: ""
+Extracting PV1.45 for mapping to Discharge Date/Time
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 45 + offset 0: ""
+  Final value: ""
+Extracting PV1.46 for mapping to Current Patient Balance
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 46 + offset 0: ""
+  Final value: ""
+Extracting PV1.47 for mapping to Total Charges
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 47 + offset 0: ""
+  Final value: ""
+Extracting PV1.48 for mapping to Total Adjustments
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 48 + offset 0: ""
+  Final value: ""
+Extracting PV1.49 for mapping to Total Payments
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 49 + offset 0: ""
+  Final value: ""
+Extracting PV1.50 for mapping to Alternate Visit ID
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 50 + offset 0: ""
+  Final value: ""
+Extracting PV1.51 for mapping to Visit Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 51 + offset 0: ""
+  Final value: ""
+Extracting PV1.52 for mapping to Other Healthcare Provider
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 52 + offset 0: ""
+  Final value: ""
+Extracting PV1.7.1 for mapping to Attending Doctor ID Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
+    Component index 1: "GKHONG"
+  Final value: "GKHONG"
 Extracting PV1.7.1 for mapping to PV1.7.1
   Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
     Field index 7 + offset 0: "GKHONG^Khong^^Grace"
@@ -174,46 +547,539 @@ Extracting PRD.2.2 for mapping to firstName
 Extracting PRD.2.3 for mapping to lastName
   Segment PRD not found.
   Final value: ""
-Extracting PID.5.1 for mapping to patientName
+Extracting MSH.1 for mapping to Field Separator
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 1 + offset -1: "MSH"
+  Final value: "MSH"
+Extracting MSH.2 for mapping to Encoding Characters
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 2 + offset -1: "^~\\&"
+  Final value: "^~\\&"
+Extracting MSH.3 for mapping to Sending Application
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 3 + offset -1: "HIS"
+  Final value: "HIS"
+Extracting MSH.4 for mapping to Sending Facility
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 4 + offset -1: "RLC"
+  Final value: "RLC"
+Extracting MSH.5 for mapping to Receiving Application
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 5 + offset -1: ""
+  Final value: ""
+Extracting MSH.6 for mapping to Receiving Facility
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 6 + offset -1: ""
+  Final value: ""
+Extracting MSH.7 for mapping to Date/Time of Message
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 7 + offset -1: "20250902"
+  Final value: "20250902"
+Extracting MSH.8 for mapping to Security
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 8 + offset -1: ""
+  Final value: ""
+Extracting MSH.9 for mapping to Message Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 9 + offset -1: "ADT^A05"
+  Final value: "ADT^A05"
+Extracting MSH.10 for mapping to Message Control ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 10 + offset -1: "16"
+  Final value: "16"
+Extracting MSH.11 for mapping to Processing ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 11 + offset -1: "P"
+  Final value: "P"
+Extracting MSH.12 for mapping to Version ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 12 + offset -1: "2.4"
+  Final value: "2.4"
+Extracting MSH.13 for mapping to Sequence Number
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 13 + offset -1: ""
+  Final value: ""
+Extracting MSH.14 for mapping to Continuation Pointer
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 14 + offset -1: ""
+  Final value: ""
+Extracting MSH.15 for mapping to Accept Acknowledgment Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 15 + offset -1: "AL"
+  Final value: "AL"
+Extracting MSH.16 for mapping to Application Acknowledgment Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 16 + offset -1: "NE"
+  Final value: "NE"
+Extracting MSH.17 for mapping to Country Code
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 17 + offset -1: ""
+  Final value: ""
+Extracting MSH.18 for mapping to Character Set
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 18 + offset -1: ""
+  Final value: ""
+Extracting MSH.19 for mapping to Principal Language of Message
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 19 + offset -1: ""
+  Final value: ""
+Extracting MSH.20 for mapping to Alternate Character Set Handling Scheme
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 20 + offset -1: ""
+  Final value: ""
+Extracting MSH.21 for mapping to Message Profile Identifier
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 21 + offset -1: ""
+  Final value: ""
+Extracting EVN.1 for mapping to Event Type Code
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 1 + offset 0: "A05"
+  Final value: "A05"
+Extracting EVN.2 for mapping to Recorded Date/Time
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting EVN.3 for mapping to Date/Time Planned Event
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 3 + offset 0: ""
+  Final value: ""
+Extracting EVN.4 for mapping to Event Reason Code
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting EVN.5 for mapping to Operator ID
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 5 + offset 0: ""
+  Final value: ""
+Extracting EVN.6 for mapping to Event Occurred
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting EVN.7 for mapping to Event Facility
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 7 + offset 0: ""
+  Final value: ""
+Extracting PID.1 for mapping to Set ID - PID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting PID.2 for mapping to Patient ID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting PID.3 for mapping to Patient Identifier List
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
+  Final value: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
+Extracting PID.4 for mapping to Alternate Patient ID - PID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting PID.5 for mapping to Patient Name
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
+  Final value: "Surname^First Name^^^^^L"
+Extracting PID.6 for mapping to Mother's Maiden Name
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting PID.7 for mapping to Date/Time of Birth
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "20250101"
+  Final value: "20250101"
+Extracting PID.8 for mapping to Administrative Sex
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 8 + offset 0: "F"
   Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
+Extracting PID.9 for mapping to Patient Alias
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 9 + offset 0: ""
   Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
+Extracting PID.10 for mapping to Race
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 10 + offset 0: ""
   Final value: ""
-Extracting PID.13 for mapping to patientEmail
+Extracting PID.11 for mapping to Patient Address
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 11 + offset 0: "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P"
+  Final value: "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P"
+Extracting PID.12 for mapping to County Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 12 + offset 0: ""
+  Final value: ""
+Extracting PID.13 for mapping to Phone Number - Home
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 13 + offset 0: "07777777777~"
   Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
-  Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
-  Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
-  Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
+Extracting PID.14 for mapping to Phone Number - Business
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
+    Field index 14 + offset 0: ""
   Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
+Extracting PID.15 for mapping to Primary Language
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 15 + offset 0: ""
   Final value: ""
+Extracting PID.16 for mapping to Marital Status
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 16 + offset 0: ""
+  Final value: ""
+Extracting PID.17 for mapping to Religion
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 17 + offset 0: ""
+  Final value: ""
+Extracting PID.18 for mapping to Patient Account Number
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 18 + offset 0: "V00007605635"
+  Final value: "V00007605635"
+Extracting PID.19 for mapping to SSN Number - Patient
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 19 + offset 0: "123 456 7891"
+  Final value: "123 456 7891"
+Extracting PID.20 for mapping to Driver's License Number - Patient
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 20 + offset 0: ""
+  Final value: ""
+Extracting PID.21 for mapping to Mother's Identifier
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 21 + offset 0: ""
+  Final value: ""
+Extracting PID.22 for mapping to Ethnic Group
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 22 + offset 0: ""
+  Final value: ""
+Extracting PID.23 for mapping to Birth Place
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 23 + offset 0: ""
+  Final value: ""
+Extracting PID.24 for mapping to Multiple Birth Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 24 + offset 0: ""
+  Final value: ""
+Extracting PID.25 for mapping to Birth Order
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 25 + offset 0: ""
+  Final value: ""
+Extracting PID.26 for mapping to Citizenship
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 26 + offset 0: ""
+  Final value: ""
+Extracting PID.27 for mapping to Veterans Military Status
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 27 + offset 0: ""
+  Final value: ""
+Extracting PID.28 for mapping to Nationality
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 28 + offset 0: ""
+  Final value: ""
+Extracting PID.29 for mapping to Patient Death Date and Time
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 29 + offset 0: ""
+  Final value: ""
+Extracting PID.30 for mapping to Patient Death Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 30 + offset 0: ""
+  Final value: ""
+Extracting PID.31 for mapping to Identity Unknown Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 31 + offset 0: ""
+  Final value: ""
+Extracting PID.32 for mapping to Identity Reliability Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 32 + offset 0: ""
+  Final value: ""
+Extracting PID.33 for mapping to Last Update Date/Time
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 33 + offset 0: ""
+  Final value: ""
+Extracting PID.34 for mapping to Last Update Facility
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 34 + offset 0: ""
+  Final value: ""
+Extracting PID.35 for mapping to Species Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 35 + offset 0: ""
+  Final value: ""
+Extracting PID.36 for mapping to Breed Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 36 + offset 0: ""
+  Final value: ""
+Extracting PID.37 for mapping to Strain
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 37 + offset 0: ""
+  Final value: ""
+Extracting PID.38 for mapping to Production Class Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 38 + offset 0: ""
+  Final value: ""
+Extracting PID.39 for mapping to Tribal Citizenship
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 39 + offset 0: ""
+  Final value: ""
+Extracting PD1.1 for mapping to Living Dependency
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 1 + offset 0: ""
+  Final value: ""
+Extracting PD1.2 for mapping to Living Arrangement
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting PD1.3 for mapping to Patient Primary Facility
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 3 + offset 0: "^^N82053^AINTREE PARK GROUPs PRACTICE"
+  Final value: "^^N82053^AINTREE PARK GROUPs PRACTICE"
+Extracting PD1.4 for mapping to Patient Primary Care Provider Name & ID No.
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 4 + offset 0: "G8503501^HUBBERT CM^^"
+  Final value: "G8503501^HUBBERT CM^^"
+Extracting PD1.5 for mapping to Student Indicator
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 5 + offset 0: ""
+  Final value: ""
+Extracting NK1.1 for mapping to Set ID - NK1
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting NK1.2 for mapping to Name
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 2 + offset 0: "Test^Mum"
+  Final value: "Test^Mum"
+Extracting NK1.3 for mapping to Relationship
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 3 + offset 0: "M^"
+  Final value: "M^"
+Extracting NK1.4 for mapping to Address
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 4 + offset 0: "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB"
+  Final value: "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB"
+Extracting NK1.5 for mapping to Phone Number
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 5 + offset 0: "07777777777"
+  Final value: "07777777777"
+Extracting NK1.6 for mapping to Business Phone Number
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting NK1.7 for mapping to Contact Role
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 7 + offset 0: ""
+  Final value: ""
+Extracting NK1.8 for mapping to Start Date
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 8 + offset 0: ""
+  Final value: ""
+Extracting PV1.1 for mapping to Set ID - PV1
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting PV1.2 for mapping to Patient Class
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 2 + offset 0: "P"
+  Final value: "P"
+Extracting PV1.3 for mapping to Assigned Patient Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 3 + offset 0: "1.2 ENT"
+  Final value: "1.2 ENT"
+Extracting PV1.4 for mapping to Admission Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting PV1.5 for mapping to Preadmit Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 5 + offset 0: "F"
+  Final value: "F"
+Extracting PV1.6 for mapping to Prior Patient Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting PV1.7 for mapping to Attending Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
+  Final value: "GKHONG^Khong^^Grace"
+Extracting PV1.8 for mapping to Referring Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 8 + offset 0: ""
+  Final value: ""
+Extracting PV1.9 for mapping to Consulting Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 9 + offset 0: "ENTFELLOW3"
+  Final value: "ENTFELLOW3"
+Extracting PV1.10 for mapping to Hospital Service
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 10 + offset 0: "ENT"
+  Final value: "ENT"
+Extracting PV1.11 for mapping to Temporary Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 11 + offset 0: ""
+  Final value: ""
+Extracting PV1.12 for mapping to Preadmit Test Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 12 + offset 0: ""
+  Final value: ""
+Extracting PV1.13 for mapping to Readmission Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 13 + offset 0: ""
+  Final value: ""
+Extracting PV1.14 for mapping to Admit Source
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 14 + offset 0: ""
+  Final value: ""
+Extracting PV1.15 for mapping to Ambulatory Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 15 + offset 0: ""
+  Final value: ""
+Extracting PV1.16 for mapping to VIP Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 16 + offset 0: ""
+  Final value: ""
+Extracting PV1.17 for mapping to Admitting Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 17 + offset 0: ""
+  Final value: ""
+Extracting PV1.18 for mapping to Patient Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 18 + offset 0: "CLI"
+  Final value: "CLI"
+Extracting PV1.19 for mapping to Visit Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 19 + offset 0: ""
+  Final value: ""
+Extracting PV1.20 for mapping to Financial Class
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 20 + offset 0: ""
+  Final value: ""
+Extracting PV1.21 for mapping to Charge Price Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 21 + offset 0: ""
+  Final value: ""
+Extracting PV1.22 for mapping to Courtesy Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 22 + offset 0: "ENTFELLOW3"
+  Final value: "ENTFELLOW3"
+Extracting PV1.23 for mapping to Credit Rating
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 23 + offset 0: ""
+  Final value: ""
+Extracting PV1.24 for mapping to Contract Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 24 + offset 0: ""
+  Final value: ""
+Extracting PV1.25 for mapping to Contract Effective Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 25 + offset 0: ""
+  Final value: ""
+Extracting PV1.26 for mapping to Contract Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 26 + offset 0: ""
+  Final value: ""
+Extracting PV1.27 for mapping to Contract Period
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 27 + offset 0: ""
+  Final value: ""
+Extracting PV1.28 for mapping to Interest Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 28 + offset 0: ""
+  Final value: ""
+Extracting PV1.29 for mapping to Transfer to Bad Debt Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 29 + offset 0: ""
+  Final value: ""
+Extracting PV1.30 for mapping to Transfer to Bad Debt Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 30 + offset 0: ""
+  Final value: ""
+Extracting PV1.31 for mapping to Bad Debt Agency Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 31 + offset 0: ""
+  Final value: ""
+Extracting PV1.32 for mapping to Bad Debt Transfer Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 32 + offset 0: ""
+  Final value: ""
+Extracting PV1.33 for mapping to Bad Debt Recovery Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 33 + offset 0: ""
+  Final value: ""
+Extracting PV1.34 for mapping to Delete Account Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 34 + offset 0: ""
+  Final value: ""
+Extracting PV1.35 for mapping to Delete Account Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 35 + offset 0: ""
+  Final value: ""
+Extracting PV1.36 for mapping to Discharge Disposition
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 36 + offset 0: ""
+  Final value: ""
+Extracting PV1.37 for mapping to Discharged to Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 37 + offset 0: ""
+  Final value: ""
+Extracting PV1.38 for mapping to Diet Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 38 + offset 0: ""
+  Final value: ""
+Extracting PV1.39 for mapping to Servicing Facility
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 39 + offset 0: "RLC"
+  Final value: "RLC"
+Extracting PV1.40 for mapping to Bed Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 40 + offset 0: ""
+  Final value: ""
+Extracting PV1.41 for mapping to Account Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 41 + offset 0: "PRE"
+  Final value: "PRE"
+Extracting PV1.42 for mapping to Pending Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 42 + offset 0: ""
+  Final value: ""
+Extracting PV1.43 for mapping to Prior Temporary Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 43 + offset 0: ""
+  Final value: ""
+Extracting PV1.44 for mapping to Admit Date/Time
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 44 + offset 0: ""
+  Final value: ""
+Extracting PV1.45 for mapping to Discharge Date/Time
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 45 + offset 0: ""
+  Final value: ""
+Extracting PV1.46 for mapping to Current Patient Balance
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 46 + offset 0: ""
+  Final value: ""
+Extracting PV1.47 for mapping to Total Charges
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 47 + offset 0: ""
+  Final value: ""
+Extracting PV1.48 for mapping to Total Adjustments
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 48 + offset 0: ""
+  Final value: ""
+Extracting PV1.49 for mapping to Total Payments
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 49 + offset 0: ""
+  Final value: ""
+Extracting PV1.50 for mapping to Alternate Visit ID
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 50 + offset 0: ""
+  Final value: ""
+Extracting PV1.51 for mapping to Visit Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 51 + offset 0: ""
+  Final value: ""
+Extracting PV1.52 for mapping to Other Healthcare Provider
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 52 + offset 0: ""
+  Final value: ""
+Extracting PV1.7.1 for mapping to Attending Doctor ID Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
+    Component index 1: "GKHONG"
+  Final value: "GKHONG"
 Extracting PV1.7.1 for mapping to PV1.7.1
   Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
     Field index 7 + offset 0: "GKHONG^Khong^^Grace"
@@ -230,158 +1096,539 @@ Extracting PRD.2.2 for mapping to firstName
 Extracting PRD.2.3 for mapping to lastName
   Segment PRD not found.
   Final value: ""
-Extracting PID.5.1 for mapping to patientName
+Extracting MSH.1 for mapping to Field Separator
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 1 + offset -1: "MSH"
+  Final value: "MSH"
+Extracting MSH.2 for mapping to Encoding Characters
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 2 + offset -1: "^~\\&"
+  Final value: "^~\\&"
+Extracting MSH.3 for mapping to Sending Application
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 3 + offset -1: "HIS"
+  Final value: "HIS"
+Extracting MSH.4 for mapping to Sending Facility
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 4 + offset -1: "RLC"
+  Final value: "RLC"
+Extracting MSH.5 for mapping to Receiving Application
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 5 + offset -1: ""
+  Final value: ""
+Extracting MSH.6 for mapping to Receiving Facility
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 6 + offset -1: ""
+  Final value: ""
+Extracting MSH.7 for mapping to Date/Time of Message
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 7 + offset -1: "20250902"
+  Final value: "20250902"
+Extracting MSH.8 for mapping to Security
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 8 + offset -1: ""
+  Final value: ""
+Extracting MSH.9 for mapping to Message Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 9 + offset -1: "ADT^A05"
+  Final value: "ADT^A05"
+Extracting MSH.10 for mapping to Message Control ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 10 + offset -1: "16"
+  Final value: "16"
+Extracting MSH.11 for mapping to Processing ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 11 + offset -1: "P"
+  Final value: "P"
+Extracting MSH.12 for mapping to Version ID
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 12 + offset -1: "2.4"
+  Final value: "2.4"
+Extracting MSH.13 for mapping to Sequence Number
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 13 + offset -1: ""
+  Final value: ""
+Extracting MSH.14 for mapping to Continuation Pointer
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 14 + offset -1: ""
+  Final value: ""
+Extracting MSH.15 for mapping to Accept Acknowledgment Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 15 + offset -1: "AL"
+  Final value: "AL"
+Extracting MSH.16 for mapping to Application Acknowledgment Type
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 16 + offset -1: "NE"
+  Final value: "NE"
+Extracting MSH.17 for mapping to Country Code
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 17 + offset -1: ""
+  Final value: ""
+Extracting MSH.18 for mapping to Character Set
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 18 + offset -1: ""
+  Final value: ""
+Extracting MSH.19 for mapping to Principal Language of Message
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 19 + offset -1: ""
+  Final value: ""
+Extracting MSH.20 for mapping to Alternate Character Set Handling Scheme
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 20 + offset -1: ""
+  Final value: ""
+Extracting MSH.21 for mapping to Message Profile Identifier
+  Found segment: ["MSH","^~\\&","HIS","RLC","","","20250902","","ADT^A05","16","P","2.4","","","AL","NE","","","","","",""]
+    Field index 21 + offset -1: ""
+  Final value: ""
+Extracting EVN.1 for mapping to Event Type Code
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 1 + offset 0: "A05"
+  Final value: "A05"
+Extracting EVN.2 for mapping to Recorded Date/Time
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting EVN.3 for mapping to Date/Time Planned Event
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 3 + offset 0: ""
+  Final value: ""
+Extracting EVN.4 for mapping to Event Reason Code
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting EVN.5 for mapping to Operator ID
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 5 + offset 0: ""
+  Final value: ""
+Extracting EVN.6 for mapping to Event Occurred
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting EVN.7 for mapping to Event Facility
+  Found segment: ["EVN","A05","","","","","","",""]
+    Field index 7 + offset 0: ""
+  Final value: ""
+Extracting PID.1 for mapping to Set ID - PID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting PID.2 for mapping to Patient ID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting PID.3 for mapping to Patient Identifier List
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
+  Final value: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
+Extracting PID.4 for mapping to Alternate Patient ID - PID
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting PID.5 for mapping to Patient Name
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
+  Final value: "Surname^First Name^^^^^L"
+Extracting PID.6 for mapping to Mother's Maiden Name
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting PID.7 for mapping to Date/Time of Birth
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "20250101"
+  Final value: "20250101"
+Extracting PID.8 for mapping to Administrative Sex
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 8 + offset 0: "F"
   Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
+Extracting PID.9 for mapping to Patient Alias
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 9 + offset 0: ""
   Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
+Extracting PID.10 for mapping to Race
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 10 + offset 0: ""
   Final value: ""
-Extracting PID.13 for mapping to patientEmail
+Extracting PID.11 for mapping to Patient Address
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 11 + offset 0: "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P"
+  Final value: "TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P"
+Extracting PID.12 for mapping to County Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 12 + offset 0: ""
+  Final value: ""
+Extracting PID.13 for mapping to Phone Number - Home
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
     Field index 13 + offset 0: "07777777777~"
   Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
-  Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
-  Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
-  Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
+Extracting PID.14 for mapping to Phone Number - Business
   Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
+    Field index 14 + offset 0: ""
   Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
+Extracting PID.15 for mapping to Primary Language
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 15 + offset 0: ""
   Final value: ""
-Extracting PV1.7.1 for mapping to PV1.7.1
+Extracting PID.16 for mapping to Marital Status
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 16 + offset 0: ""
+  Final value: ""
+Extracting PID.17 for mapping to Religion
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 17 + offset 0: ""
+  Final value: ""
+Extracting PID.18 for mapping to Patient Account Number
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 18 + offset 0: "V00007605635"
+  Final value: "V00007605635"
+Extracting PID.19 for mapping to SSN Number - Patient
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 19 + offset 0: "123 456 7891"
+  Final value: "123 456 7891"
+Extracting PID.20 for mapping to Driver's License Number - Patient
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 20 + offset 0: ""
+  Final value: ""
+Extracting PID.21 for mapping to Mother's Identifier
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 21 + offset 0: ""
+  Final value: ""
+Extracting PID.22 for mapping to Ethnic Group
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 22 + offset 0: ""
+  Final value: ""
+Extracting PID.23 for mapping to Birth Place
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 23 + offset 0: ""
+  Final value: ""
+Extracting PID.24 for mapping to Multiple Birth Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 24 + offset 0: ""
+  Final value: ""
+Extracting PID.25 for mapping to Birth Order
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 25 + offset 0: ""
+  Final value: ""
+Extracting PID.26 for mapping to Citizenship
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 26 + offset 0: ""
+  Final value: ""
+Extracting PID.27 for mapping to Veterans Military Status
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 27 + offset 0: ""
+  Final value: ""
+Extracting PID.28 for mapping to Nationality
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 28 + offset 0: ""
+  Final value: ""
+Extracting PID.29 for mapping to Patient Death Date and Time
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 29 + offset 0: ""
+  Final value: ""
+Extracting PID.30 for mapping to Patient Death Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 30 + offset 0: ""
+  Final value: ""
+Extracting PID.31 for mapping to Identity Unknown Indicator
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 31 + offset 0: ""
+  Final value: ""
+Extracting PID.32 for mapping to Identity Reliability Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 32 + offset 0: ""
+  Final value: ""
+Extracting PID.33 for mapping to Last Update Date/Time
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 33 + offset 0: ""
+  Final value: ""
+Extracting PID.34 for mapping to Last Update Facility
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 34 + offset 0: ""
+  Final value: ""
+Extracting PID.35 for mapping to Species Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 35 + offset 0: ""
+  Final value: ""
+Extracting PID.36 for mapping to Breed Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 36 + offset 0: ""
+  Final value: ""
+Extracting PID.37 for mapping to Strain
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 37 + offset 0: ""
+  Final value: ""
+Extracting PID.38 for mapping to Production Class Code
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 38 + offset 0: ""
+  Final value: ""
+Extracting PID.39 for mapping to Tribal Citizenship
+  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
+    Field index 39 + offset 0: ""
+  Final value: ""
+Extracting PD1.1 for mapping to Living Dependency
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 1 + offset 0: ""
+  Final value: ""
+Extracting PD1.2 for mapping to Living Arrangement
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 2 + offset 0: ""
+  Final value: ""
+Extracting PD1.3 for mapping to Patient Primary Facility
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 3 + offset 0: "^^N82053^AINTREE PARK GROUPs PRACTICE"
+  Final value: "^^N82053^AINTREE PARK GROUPs PRACTICE"
+Extracting PD1.4 for mapping to Patient Primary Care Provider Name & ID No.
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 4 + offset 0: "G8503501^HUBBERT CM^^"
+  Final value: "G8503501^HUBBERT CM^^"
+Extracting PD1.5 for mapping to Student Indicator
+  Found segment: ["PD1","","","^^N82053^AINTREE PARK GROUPs PRACTICE","G8503501^HUBBERT CM^^",""]
+    Field index 5 + offset 0: ""
+  Final value: ""
+Extracting NK1.1 for mapping to Set ID - NK1
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting NK1.2 for mapping to Name
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 2 + offset 0: "Test^Mum"
+  Final value: "Test^Mum"
+Extracting NK1.3 for mapping to Relationship
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 3 + offset 0: "M^"
+  Final value: "M^"
+Extracting NK1.4 for mapping to Address
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 4 + offset 0: "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB"
+  Final value: "ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB"
+Extracting NK1.5 for mapping to Phone Number
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 5 + offset 0: "07777777777"
+  Final value: "07777777777"
+Extracting NK1.6 for mapping to Business Phone Number
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting NK1.7 for mapping to Contact Role
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 7 + offset 0: ""
+  Final value: ""
+Extracting NK1.8 for mapping to Start Date
+  Found segment: ["NK1","1","Test^Mum","M^","ALDER HEY^^LIVERPOOL^MERSEYSIDE^L14 5AB","07777777777","","",""]
+    Field index 8 + offset 0: ""
+  Final value: ""
+Extracting PV1.1 for mapping to Set ID - PV1
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 1 + offset 0: "1"
+  Final value: "1"
+Extracting PV1.2 for mapping to Patient Class
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 2 + offset 0: "P"
+  Final value: "P"
+Extracting PV1.3 for mapping to Assigned Patient Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 3 + offset 0: "1.2 ENT"
+  Final value: "1.2 ENT"
+Extracting PV1.4 for mapping to Admission Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 4 + offset 0: ""
+  Final value: ""
+Extracting PV1.5 for mapping to Preadmit Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 5 + offset 0: "F"
+  Final value: "F"
+Extracting PV1.6 for mapping to Prior Patient Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 6 + offset 0: ""
+  Final value: ""
+Extracting PV1.7 for mapping to Attending Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
+  Final value: "GKHONG^Khong^^Grace"
+Extracting PV1.8 for mapping to Referring Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 8 + offset 0: ""
+  Final value: ""
+Extracting PV1.9 for mapping to Consulting Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 9 + offset 0: "ENTFELLOW3"
+  Final value: "ENTFELLOW3"
+Extracting PV1.10 for mapping to Hospital Service
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 10 + offset 0: "ENT"
+  Final value: "ENT"
+Extracting PV1.11 for mapping to Temporary Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 11 + offset 0: ""
+  Final value: ""
+Extracting PV1.12 for mapping to Preadmit Test Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 12 + offset 0: ""
+  Final value: ""
+Extracting PV1.13 for mapping to Readmission Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 13 + offset 0: ""
+  Final value: ""
+Extracting PV1.14 for mapping to Admit Source
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 14 + offset 0: ""
+  Final value: ""
+Extracting PV1.15 for mapping to Ambulatory Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 15 + offset 0: ""
+  Final value: ""
+Extracting PV1.16 for mapping to VIP Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 16 + offset 0: ""
+  Final value: ""
+Extracting PV1.17 for mapping to Admitting Doctor
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 17 + offset 0: ""
+  Final value: ""
+Extracting PV1.18 for mapping to Patient Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 18 + offset 0: "CLI"
+  Final value: "CLI"
+Extracting PV1.19 for mapping to Visit Number
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 19 + offset 0: ""
+  Final value: ""
+Extracting PV1.20 for mapping to Financial Class
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 20 + offset 0: ""
+  Final value: ""
+Extracting PV1.21 for mapping to Charge Price Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 21 + offset 0: ""
+  Final value: ""
+Extracting PV1.22 for mapping to Courtesy Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 22 + offset 0: "ENTFELLOW3"
+  Final value: "ENTFELLOW3"
+Extracting PV1.23 for mapping to Credit Rating
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 23 + offset 0: ""
+  Final value: ""
+Extracting PV1.24 for mapping to Contract Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 24 + offset 0: ""
+  Final value: ""
+Extracting PV1.25 for mapping to Contract Effective Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 25 + offset 0: ""
+  Final value: ""
+Extracting PV1.26 for mapping to Contract Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 26 + offset 0: ""
+  Final value: ""
+Extracting PV1.27 for mapping to Contract Period
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 27 + offset 0: ""
+  Final value: ""
+Extracting PV1.28 for mapping to Interest Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 28 + offset 0: ""
+  Final value: ""
+Extracting PV1.29 for mapping to Transfer to Bad Debt Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 29 + offset 0: ""
+  Final value: ""
+Extracting PV1.30 for mapping to Transfer to Bad Debt Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 30 + offset 0: ""
+  Final value: ""
+Extracting PV1.31 for mapping to Bad Debt Agency Code
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 31 + offset 0: ""
+  Final value: ""
+Extracting PV1.32 for mapping to Bad Debt Transfer Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 32 + offset 0: ""
+  Final value: ""
+Extracting PV1.33 for mapping to Bad Debt Recovery Amount
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 33 + offset 0: ""
+  Final value: ""
+Extracting PV1.34 for mapping to Delete Account Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 34 + offset 0: ""
+  Final value: ""
+Extracting PV1.35 for mapping to Delete Account Date
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 35 + offset 0: ""
+  Final value: ""
+Extracting PV1.36 for mapping to Discharge Disposition
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 36 + offset 0: ""
+  Final value: ""
+Extracting PV1.37 for mapping to Discharged to Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 37 + offset 0: ""
+  Final value: ""
+Extracting PV1.38 for mapping to Diet Type
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 38 + offset 0: ""
+  Final value: ""
+Extracting PV1.39 for mapping to Servicing Facility
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 39 + offset 0: "RLC"
+  Final value: "RLC"
+Extracting PV1.40 for mapping to Bed Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 40 + offset 0: ""
+  Final value: ""
+Extracting PV1.41 for mapping to Account Status
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 41 + offset 0: "PRE"
+  Final value: "PRE"
+Extracting PV1.42 for mapping to Pending Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 42 + offset 0: ""
+  Final value: ""
+Extracting PV1.43 for mapping to Prior Temporary Location
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 43 + offset 0: ""
+  Final value: ""
+Extracting PV1.44 for mapping to Admit Date/Time
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 44 + offset 0: ""
+  Final value: ""
+Extracting PV1.45 for mapping to Discharge Date/Time
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 45 + offset 0: ""
+  Final value: ""
+Extracting PV1.46 for mapping to Current Patient Balance
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 46 + offset 0: ""
+  Final value: ""
+Extracting PV1.47 for mapping to Total Charges
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 47 + offset 0: ""
+  Final value: ""
+Extracting PV1.48 for mapping to Total Adjustments
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 48 + offset 0: ""
+  Final value: ""
+Extracting PV1.49 for mapping to Total Payments
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 49 + offset 0: ""
+  Final value: ""
+Extracting PV1.50 for mapping to Alternate Visit ID
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 50 + offset 0: ""
+  Final value: ""
+Extracting PV1.51 for mapping to Visit Indicator
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 51 + offset 0: ""
+  Final value: ""
+Extracting PV1.52 for mapping to Other Healthcare Provider
+  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
+    Field index 52 + offset 0: ""
+  Final value: ""
+Extracting PV1.7.1 for mapping to Attending Doctor ID Number
   Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
     Field index 7 + offset 0: "GKHONG^Khong^^Grace"
     Component index 1: "GKHONG"
   Final value: "GKHONG"
-Extracting PV1.7.2 for mapping to PV1.7.2
-  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
-    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
-    Component index 2: "Khong"
-  Final value: "Khong"
-Extracting PRD.2.2 for mapping to firstName
-  Segment PRD not found.
-  Final value: ""
-Extracting PRD.2.3 for mapping to lastName
-  Segment PRD not found.
-  Final value: ""
-Extracting PID.5.1 for mapping to patientName
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 8 + offset 0: "F"
-  Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
-  Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
-  Final value: ""
-Extracting PID.13 for mapping to patientEmail
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 13 + offset 0: "07777777777~"
-  Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
-  Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
-  Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
-  Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
-  Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
-  Final value: ""
-Extracting PV1.7.1 for mapping to PV1.7.1
-  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
-    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
-    Component index 1: "GKHONG"
-  Final value: "GKHONG"
-Extracting PV1.7.2 for mapping to PV1.7.2
-  Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
-    Field index 7 + offset 0: "GKHONG^Khong^^Grace"
-    Component index 2: "Khong"
-  Final value: "Khong"
-Extracting PRD.2.2 for mapping to firstName
-  Segment PRD not found.
-  Final value: ""
-Extracting PRD.2.3 for mapping to lastName
-  Segment PRD not found.
-  Final value: ""
-Extracting PID.5.1 for mapping to patientName
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 5 + offset 0: "Surname^First Name^^^^^L"
-    Component index 1: "Surname"
-  Final value: "Surname"
-Extracting PID.8 for mapping to patientGender
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 8 + offset 0: "F"
-  Final value: "F"
-Extracting SCH.7 for mapping to appointmentTime
-  Segment SCH not found.
-  Final value: ""
-Extracting SCH.25 for mapping to appointmentStatus
-  Segment SCH not found.
-  Final value: ""
-Extracting PID.13 for mapping to patientEmail
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 13 + offset 0: "07777777777~"
-  Final value: "07777777777~"
-Extracting ZLY.1 for mapping to patientLyrebirdConsent
-  Segment ZLY not found.
-  Final value: ""
-Extracting ZLY.2 for mapping to sendPatientLetter
-  Segment ZLY not found.
-  Final value: ""
-Extracting NTE.3 for mapping to notepad
-  Segment NTE not found.
-  Final value: ""
-Extracting PID.3.1.1 for mapping to emrRecordId
-  Found segment: ["PID","1","","AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~","","Surname^First Name^^^^^L","","20250101","F","","","TigersHospital^^Auchtenlectalbert^^5AB 2JF^^P","","07777777777~","","","","","V00007605635","123 456 7891","","","","","","","","","","","","","","","","","","","",""]
-    Field index 3 + offset 0: "AH1234567^^^^MR^RLC~123 456 7891^^^NHS^NH^RLC~^^^^PI^RLC~"
-    Repetition index 1: "AH1234567^^^^MR^RLC"
-    Subcomponent index 1: "AH1234567"
-  Final value: "AH1234567"
-Extracting SCH.1 for mapping to upcomingOrder
-  Segment SCH not found.
-  Final value: ""
-Extracting SCH.1 for mapping to userId
-  Segment SCH not found.
-  Final value: ""
 Extracting PV1.7.1 for mapping to PV1.7.1
   Found segment: ["PV1","1","P","1.2 ENT","","F","","GKHONG^Khong^^Grace","","ENTFELLOW3","ENT","","","","","","","","CLI","","","","ENTFELLOW3","","","","","","","","","","","","","","","","","RLC","","PRE","","","","","","","","","","","",""]
     Field index 7 + offset 0: "GKHONG^Khong^^Grace"

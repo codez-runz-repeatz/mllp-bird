@@ -1,9 +1,10 @@
 const fetch = require('node-fetch');
-const { getApiKey, isPractitioner } = require('./helpers/params.js');
+const { getApiKey, isPractitioner,appointmentURL,practitionerURL ,notesURL } = require('./helpers/params.js');
 
 const API_KEY = getApiKey();
-const API_URL_APPOINTMENTS = 'https://stg.lyrebirdhealth.com/partnerapi/v1/appointments';
-const API_URL_PRACTITIONER = 'https://stg.lyrebirdhealth.com/partnerapi/v1/practitioners';
+const API_URL_APPOINTMENTS = appointmentURL();
+const API_URL_PRACTITIONER = practitionerURL();
+const API_URL_NOTES = notesURL();
 
 function logAPICommand(jsonData, key, url){
     if (API_KEY && API_KEY !== '<YOUR_API_KEY_HERE>') {
@@ -18,7 +19,7 @@ function logAPICommand(jsonData, key, url){
             console.log(curlCmd1);
           }
     return      
-};
+}
 
 async function postAppointments(jsonData){
     postToApi(jsonData, API_KEY, API_URL_APPOINTMENTS);
@@ -27,6 +28,16 @@ async function postPractitioner(jsonData){
   if (isPractitioner()) {
     postToApi(jsonData, API_KEY, API_URL_PRACTITIONER);
   }
+}
+
+async function getNotes() {
+  const response = await fetch(API_URL_NOTES, {
+    headers: { 'Authorization': `Bearer ${API_KEY}` }
+  });
+  if (!response.ok) {
+    throw new Error('Failed to fetch note: ' + response.statusText);
+  }
+  return response.json();
 }
 
 async function postToApi(jsonData, apiKey, apiUrl) {
@@ -64,4 +75,4 @@ async function postToApi(jsonData, apiKey, apiUrl) {
   }
 }
 
-module.exports = { postAppointments, postPractitioner };
+module.exports = { postAppointments, postPractitioner, getNotes };
